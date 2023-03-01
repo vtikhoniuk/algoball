@@ -1,0 +1,27 @@
+r:
+  instances:
+  - r1
+  roles:
+  - vshard-router
+  - router
+  all_rw: false
+s1:
+  instances:
+  - s1a
+  - s1b
+  roles:
+  - vshard-storage
+  - storage
+  weight: 1
+  all_rw: false
+  vshard_group: default
+s2:
+  instances:
+  - s2a
+  - s2b
+  roles:
+  - vshard-storage
+  - storage
+  weight: 1
+  all_rw: false
+  vshard_group: default

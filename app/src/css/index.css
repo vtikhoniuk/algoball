@@ -1,0 +1,25 @@
+@import './reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: Raleway, Poppins, sans-serif;
+    color: white;
+    /* background: #030c1d; */
+    background: #07040b;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    --block-border-radius: 7px;
+    --card-border-radius: 8px;
+    --card-margin-ratio: 0.15;
+    --shift-ratio: -0.5;
+    --offer-padding-ratio: 0.15;
+    --welcome-url: url(../../public/img/img/welcome.png);
+    --bullet-url: url(../../public/img/img/bullet.png);
+    /* --reload-url: url(../../public/img/img/reload.png); */
+    --info-url: url(../../public/img/img/info1.png);
+}

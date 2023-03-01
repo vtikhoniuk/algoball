@@ -1,0 +1,8 @@
+.cardContainer {
+    float: left;
+    /* margin-right: var(--card-margin);
+    margin-bottom: var(--card-margin); */
+    background: #051327;
+    /* border-radius: var(--card-border-radius); */
+    flex: 0 0 auto;
+}

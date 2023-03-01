@@ -1,0 +1,31 @@
+.offerContainer {
+    float: left;
+    /* margin-right: var(--card-margin);
+    margin-bottom: var(--card-margin); */
+    background: #051327;
+    /* border-radius: var(--card-border-radius); */
+    cursor: default;
+    /* padding: var(--offer-padding-ratio); */
+}
+
+.offerContainer:not([disabled]):hover{
+    background: #293f59;
+    cursor: pointer;
+}
+.offerContainer:not([disabled]):active{
+    background: #132842;
+    cursor: pointer;
+}
+
+.arrowItem {
+    float: left;
+    position: relative;
+}
+
+.arrowImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;    
+}

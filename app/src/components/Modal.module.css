@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    z-index: 999;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    padding: 25px;
+    background: #293f59;
+    border-radius: 10px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+
+.text{
+    font-size: 3vmin;
+    margin: 0 0 4vmin;
+}
+
+.button{
+    font-size: 3vmin;
+    height: 6vmin;
+    padding: 3px 30px;
+    text-align: center;
+    background:#051327;
+    color: #c5d5d6;
+    border-radius: 1vmin;
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+.button:not([disabled]):hover{
+    background: #091f3c;
+}
+.button:not([disabled]):active{
+    background: #030c1d;
+}

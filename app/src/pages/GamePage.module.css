@@ -1,0 +1,240 @@
+.page {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: 0 auto;
+    height: 100%;
+    /* background: #051327; */
+}
+
+.cPadding{
+    padding-top: 10px;
+}
+
+@media (min-width: /* 1280px */ 900px) {
+    .container {
+        max-width: /* 1280px */ 900px;
+    }
+}
+
+.headerArea{
+    /* background: #091f3c; */
+    margin: 10px 10px /* 10px */ 0 10px;
+    height: 10vmin;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.logo{
+    height: 100%;
+}
+
+.menuArea{
+    display: flex;
+    align-items: center;
+}
+
+.menuArea button{
+    position: relative;
+    display: inline-block;
+    height: 6vmin;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border-radius: 1.5vmin;
+}
+
+.simpleButton{
+    width: 7vmin;
+    background: linear-gradient(#301d5f, #1c1234); 
+    color: white;
+    font-weight: normal;
+    font-size: 2vmin;
+    box-shadow:
+    0 1px rgba(255,255,255,.2) inset,
+    0 3px 5px rgba(0,1,6,.5),
+    0 0 1px 1px rgba(0,1,6,.2);
+}
+
+.simpleButton img{
+    width: 4vmin;
+    height: 4vmin;
+}
+
+.simpleButton:active{
+    top: 1px;
+    background: linear-gradient(#301d5f, #1c1234); 
+    box-shadow:
+        0 0 1px rgba(0,0,0,.5) inset,
+        0 2px 3px rgba(0,0,0,.5) inset,
+        0 1px 1px rgba(255,255,255,.1);
+}
+
+.ctaButton{
+    width: 18vmin;
+    background: linear-gradient(#e7ecef 10%, #76878e 40%, #364c57 80%, 95%, #76878e);
+    color: black;
+    font-weight: bold;
+    font-size: 2.2vmin;
+    text-shadow: 2px 2px 2px rgba(119, 119, 119, .5);
+    box-shadow:
+        0 1px rgba(255,255,255,.2) inset,
+        0 3px 5px rgba(0,1,6,.5),
+        0 0 1px 1px rgba(0,1,6,.2);
+}
+
+.ctaButton:active{
+    top: 1px;
+    background: linear-gradient(#76878e 40%, #2c3e47 80%, /* 95%, */ #364c57);
+    box-shadow:
+        0 0 1px rgba(0,0,0,.5) inset,
+        0 2px 3px rgba(0,0,0,.5) inset,
+        0 1px 1px rgba(255,255,255,.1);
+}
+
+.ctaButton2{
+    width: 18vmin;
+    background: linear-gradient(#301d5f, #1c1234); 
+    color: white;
+    /* font-weight: bold; */
+    font-size: 2.2vmin;
+    text-shadow: 2px 2px 2px rgba(119, 119, 119, .5);
+    box-shadow:
+        0 1px rgba(255,255,255,.2) inset,
+        0 3px 5px rgba(0,1,6,.5),
+        0 0 1px 1px rgba(0,1,6,.2);
+}
+
+.ctaButton2:active{
+    top: 1px;
+    background: linear-gradient(#301d5f, #1c1234); 
+    box-shadow:
+        0 0 1px rgba(0,0,0,.5) inset,
+        0 2px 3px rgba(0,0,0,.5) inset,
+        0 1px 1px rgba(255,255,255,.1);
+}
+
+.menuLink{
+    margin: 0 2vmin;
+    font-size: 2vmin;
+    white-space: nowrap;
+}
+
+.lineArea1{
+    margin: 0 10px 1vmin 10px;
+}
+
+.lineArea1 img{
+    width: 100%;
+    height: 1.0vh;
+    display: block;
+}
+
+.lineArea2{
+    margin: 0 10px 0 10px;
+}
+
+.lineArea2 img{
+    width: 100%;
+    margin-left: 0;
+    height: .5vh;
+    display: block;
+}
+
+.scoreArea{
+    margin: 0 10px 1vh 10px;
+    border-radius: var(--block-border-radius);
+    height: 5vmin;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.scoreArea p{
+    background-image: var(--info-url);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    margin: auto;
+    flex: 0 1 auto;
+    font-size: 2vmin;
+    height: 4vmin;
+    width: 20vmin;
+    padding-top: .5vmin;
+}
+
+.main{
+    flex: 1 1 auto; 
+}
+
+.mainArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.delimiter{
+    /* border-top: 1px solid #293f59; */
+    padding-top: 2vh;
+    padding-left: 15px;
+    color: white;
+    font-size: 2vh;
+}
+
+.setContainer{
+    margin: 1vh 10px;
+    flex: 1 1 auto;
+}
+
+.setArea{
+    background: /* #091f3c */ #181832;
+    color: white;
+    margin: 0 auto;
+   /*  border-radius: var(--block-border-radius); */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.footerArea{
+    /* background: #051327; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    height: 2vh;
+    width: 100%;
+    margin: 0 8px 12px 8px;
+}
+
+.footerButton{
+    flex: 1;
+    /* justify-content: stretch; */
+    background: linear-gradient(#301d5f, #1c1234);
+    color: white;
+    font-size: 2.5vmin;
+    margin: 0px 2px;
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+
+.footerLineArea{
+    margin: 0 10px 10px 10px;
+}
+
+.footerLineArea img{
+    width: 100%;
+    height: 1.0vh;
+    display: block;
+}

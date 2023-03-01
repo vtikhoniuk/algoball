@@ -1,0 +1,32 @@
+---
+cm.r1:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+#cm.r2:
+#  advertise_uri: localhost:3302
+#  http_port: 8082
+
+cm.s1a:
+  advertise_uri: localhost:3303
+  http_enabled: False
+
+cm.s1b:
+  advertise_uri: localhost:3304
+  http_enabled: False
+
+#cm.s1c:
+#  advertise_uri: localhost:3305
+#  http_enabled: False
+
+cm.s2a:
+  advertise_uri: localhost:3306
+  http_enabled: False
+
+cm.s2b:
+  advertise_uri: localhost:3307
+  http_enabled: False
+
+#cm.s2c:
+#  advertise_uri: localhost:3308
+#  http_enabled: False

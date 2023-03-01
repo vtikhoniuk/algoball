@@ -1,0 +1,12 @@
+.cardItem {
+    float: left;
+    position: relative;
+}
+
+.cardImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;    
+}
