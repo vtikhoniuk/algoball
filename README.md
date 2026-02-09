@@ -1,2 +1,2 @@
 # algoball
-NFT puzzle game for football fans
+Puzzle game for football fans
